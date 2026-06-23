@@ -1,0 +1,7 @@
+{
+  "name": "deepnetsecure-backend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Dependencies are declared in the project root package.json only."
+}

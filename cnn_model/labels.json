@@ -1,0 +1,394 @@
+{
+  "version": 1,
+  "density": 0.5,
+  "resize": 224,
+  "label_definition": "Targets from simulated LSB embedding (texture-first order) at given density; low/medium/high via PSNR/SSIM/pair-chi thresholds (chi percentiles on this dataset).",
+  "thresholds": {
+    "chi_low_max_for_high_quality": 729.21406727162,
+    "chi_high_bad": 5548.417256611727,
+    "psnr_high_ge": 50.0,
+    "psnr_low_lt": 45.0,
+    "ssim_high_ge": 0.995,
+    "ssim_low_lt": 0.985
+  },
+  "entries": [
+    {
+      "path": "1.jpg",
+      "class": "low",
+      "psnr_db": 54.13964807143707,
+      "ssim": 0.9989816845474084,
+      "pair_chi": 6999.95422104097,
+      "target_psnr_db": 54.13964807143707,
+      "target_ssim": 0.9989816845474084
+    },
+    {
+      "path": "12925211065_7abf89afcf_o.webp",
+      "class": "low",
+      "psnr_db": 54.14898067959796,
+      "ssim": 0.9996727425879894,
+      "pair_chi": 8651.957863309397,
+      "target_psnr_db": 54.14898067959796,
+      "target_ssim": 0.9996727425879894
+    },
+    {
+      "path": "13493332065_4e75dd624a_b.jpg",
+      "class": "high",
+      "psnr_db": 54.15348132033296,
+      "ssim": 0.9991743915294594,
+      "pair_chi": 181.41089168038192,
+      "target_psnr_db": 54.15348132033296,
+      "target_ssim": 0.9991743915294594
+    },
+    {
+      "path": "1665747922-random-studio-0297def2.avif",
+      "class": "high",
+      "psnr_db": 54.14759680487295,
+      "ssim": 0.9996465231973497,
+      "pair_chi": 231.34182561843937,
+      "target_psnr_db": 54.14759680487295,
+      "target_ssim": 0.9996465231973497
+    },
+    {
+      "path": "5aadd1a3528c0381868269.jpg",
+      "class": "high",
+      "psnr_db": 54.16562166358203,
+      "ssim": 0.9985988060746757,
+      "pair_chi": 248.07009881071087,
+      "target_psnr_db": 54.16562166358203,
+      "target_ssim": 0.9985988060746757
+    },
+    {
+      "path": "698692268_b31d429272.jpg",
+      "class": "high",
+      "psnr_db": 54.15059575764523,
+      "ssim": 0.9992675369346393,
+      "pair_chi": 663.0545960709031,
+      "target_psnr_db": 54.15059575764523,
+      "target_ssim": 0.9992675369346393
+    },
+    {
+      "path": "a-random-but-beautiful.jpg",
+      "class": "high",
+      "psnr_db": 54.104457273560946,
+      "ssim": 0.9998055674212638,
+      "pair_chi": 219.184960554028,
+      "target_psnr_db": 54.104457273560946,
+      "target_ssim": 0.9998055674212638
+    },
+    {
+      "path": "an-old-car-with-peeling-paint-and-rust-4-photo.jpg",
+      "class": "high",
+      "psnr_db": 54.16446397715969,
+      "ssim": 0.9997031634640775,
+      "pair_chi": 234.9560439824227,
+      "target_psnr_db": 54.16446397715969,
+      "target_ssim": 0.9997031634640775
+    },
+    {
+      "path": "cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3BkbWlzY3Byb2plY3QyMC15Y2JhdG1zMzUxMTgtaW1hZ2VfMi5qcGc.webp",
+      "class": "high",
+      "psnr_db": 54.151518929126105,
+      "ssim": 0.9993428644639758,
+      "pair_chi": 523.3987896826999,
+      "target_psnr_db": 54.151518929126105,
+      "target_ssim": 0.9993428644639758
+    },
+    {
+      "path": "close-up-portrait-curly-handsome-european-male_176532-8133.avif",
+      "class": "medium",
+      "psnr_db": 54.14609810470949,
+      "ssim": 0.9993027764493314,
+      "pair_chi": 1391.698275681213,
+      "target_psnr_db": 54.14609810470949,
+      "target_ssim": 0.9993027764493314
+    },
+    {
+      "path": "czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQzNS0wMTAzMC5qcGc.webp",
+      "class": "medium",
+      "psnr_db": 54.13481682521247,
+      "ssim": 0.9990657604375747,
+      "pair_chi": 783.34454370857,
+      "target_psnr_db": 54.13481682521247,
+      "target_ssim": 0.9990657604375747
+    },
+    {
+      "path": "draw-paint-pen-draw-meditative-preview.jpg",
+      "class": "high",
+      "psnr_db": 54.16064580001381,
+      "ssim": 0.9996048386977172,
+      "pair_chi": 313.2142508011486,
+      "target_psnr_db": 54.16064580001381,
+      "target_ssim": 0.9996048386977172
+    },
+    {
+      "path": "drawing-colored-pencil-drawing-paint-color-preview.jpg",
+      "class": "high",
+      "psnr_db": 54.147481501881636,
+      "ssim": 0.9995743510656664,
+      "pair_chi": 161.19510846751257,
+      "target_psnr_db": 54.147481501881636,
+      "target_ssim": 0.9995743510656664
+    },
+    {
+      "path": "DSC1195.webp",
+      "class": "medium",
+      "psnr_db": 54.18360537806953,
+      "ssim": 0.9992285473559713,
+      "pair_chi": 947.5529211462042,
+      "target_psnr_db": 54.18360537806953,
+      "target_ssim": 0.9992285473559713
+    },
+    {
+      "path": "DSC1276.webp",
+      "class": "high",
+      "psnr_db": 54.161686788190345,
+      "ssim": 0.9996804787120104,
+      "pair_chi": 186.06933892132358,
+      "target_psnr_db": 54.161686788190345,
+      "target_ssim": 0.9996804787120104
+    },
+    {
+      "path": "f5264ebdc60a3b491f81940185f37a39l-m3180947584rd-w960_h720.webp",
+      "class": "high",
+      "psnr_db": 54.1662006225392,
+      "ssim": 0.9997391801122264,
+      "pair_chi": 273.2710202488513,
+      "target_psnr_db": 54.1662006225392,
+      "target_ssim": 0.9997391801122264
+    },
+    {
+      "path": "Goldfish-2-e1724099193229 (1).webp",
+      "class": "low",
+      "psnr_db": 54.130335475237715,
+      "ssim": 0.9985831238483401,
+      "pair_chi": 32066.866372074644,
+      "target_psnr_db": 54.130335475237715,
+      "target_ssim": 0.9985831238483401
+    },
+    {
+      "path": "healthy_19.jpeg",
+      "class": "medium",
+      "psnr_db": 54.17826050055418,
+      "ssim": 0.9991548050371037,
+      "pair_chi": 4471.482763016866,
+      "target_psnr_db": 54.17826050055418,
+      "target_ssim": 0.9991548050371037
+    },
+    {
+      "path": "healthy_24.jpeg",
+      "class": "high",
+      "psnr_db": 54.14817336575253,
+      "ssim": 0.9994649574570325,
+      "pair_chi": 447.8525909393241,
+      "target_psnr_db": 54.14817336575253,
+      "target_ssim": 0.9994649574570325
+    },
+    {
+      "path": "healthy_4.jpeg",
+      "class": "high",
+      "psnr_db": 54.158217797522624,
+      "ssim": 0.9994583204788268,
+      "pair_chi": 301.777722568468,
+      "target_psnr_db": 54.158217797522624,
+      "target_ssim": 0.9994583204788268
+    },
+    {
+      "path": "image-1713334838cKD.jpg",
+      "class": "high",
+      "psnr_db": 54.161802468947336,
+      "ssim": 0.9990081422882316,
+      "pair_chi": 424.08967616478515,
+      "target_psnr_db": 54.161802468947336,
+      "target_ssim": 0.9990081422882316
+    },
+    {
+      "path": "image-1734775207vNM.jpg",
+      "class": "high",
+      "psnr_db": 54.13263302578411,
+      "ssim": 0.9997454843820937,
+      "pair_chi": 198.58196701593926,
+      "target_psnr_db": 54.13263302578411,
+      "target_ssim": 0.9997454843820937
+    },
+    {
+      "path": "images (1).jfif",
+      "class": "low",
+      "psnr_db": 54.13527671241775,
+      "ssim": 0.9990482124486557,
+      "pair_chi": 9981.66329086755,
+      "target_psnr_db": 54.13527671241775,
+      "target_ssim": 0.9990482124486557
+    },
+    {
+      "path": "images (10).jfif",
+      "class": "low",
+      "psnr_db": 54.14310225504319,
+      "ssim": 0.9998324236438497,
+      "pair_chi": 7597.13574754857,
+      "target_psnr_db": 54.14310225504319,
+      "target_ssim": 0.9998324236438497
+    },
+    {
+      "path": "images (2).jfif",
+      "class": "high",
+      "psnr_db": 54.15891137401901,
+      "ssim": 0.9992320468469987,
+      "pair_chi": 196.76444011293117,
+      "target_psnr_db": 54.15891137401901,
+      "target_ssim": 0.9992320468469987
+    },
+    {
+      "path": "images (3).jfif",
+      "class": "medium",
+      "psnr_db": 54.16018321868313,
+      "ssim": 0.9988324727101825,
+      "pair_chi": 4963.315674638718,
+      "target_psnr_db": 54.16018321868313,
+      "target_ssim": 0.9988324727101825
+    },
+    {
+      "path": "images (4).jfif",
+      "class": "high",
+      "psnr_db": 54.160992768348834,
+      "ssim": 0.9995300059619924,
+      "pair_chi": 259.71568455928326,
+      "target_psnr_db": 54.160992768348834,
+      "target_ssim": 0.9995300059619924
+    },
+    {
+      "path": "images (5).jfif",
+      "class": "high",
+      "psnr_db": 54.16828551407791,
+      "ssim": 0.9995970722955889,
+      "pair_chi": 368.2623987018353,
+      "target_psnr_db": 54.16828551407791,
+      "target_ssim": 0.9995970722955889
+    },
+    {
+      "path": "images (6).jfif",
+      "class": "low",
+      "psnr_db": 54.15417414075702,
+      "ssim": 0.9991566006925505,
+      "pair_chi": 16655.664116337437,
+      "target_psnr_db": 54.15417414075702,
+      "target_ssim": 0.9991566006925505
+    },
+    {
+      "path": "images (7).jfif",
+      "class": "high",
+      "psnr_db": 54.16863309332971,
+      "ssim": 0.9997175827614423,
+      "pair_chi": 218.01716690022198,
+      "target_psnr_db": 54.16863309332971,
+      "target_ssim": 0.9997175827614423
+    },
+    {
+      "path": "images (8).jfif",
+      "class": "high",
+      "psnr_db": 54.13159897762061,
+      "ssim": 0.9994545241020883,
+      "pair_chi": 513.6725584535889,
+      "target_psnr_db": 54.13159897762061,
+      "target_ssim": 0.9994545241020883
+    },
+    {
+      "path": "images (9).jfif",
+      "class": "medium",
+      "psnr_db": 54.15140352195873,
+      "ssim": 0.9994814172940591,
+      "pair_chi": 1387.5199033877554,
+      "target_psnr_db": 54.15140352195873,
+      "target_ssim": 0.9994814172940591
+    },
+    {
+      "path": "images.jfif",
+      "class": "low",
+      "psnr_db": 54.12585874466271,
+      "ssim": 0.9993919097179579,
+      "pair_chi": 8013.236276595677,
+      "target_psnr_db": 54.12585874466271,
+      "target_ssim": 0.9993919097179579
+    },
+    {
+      "path": "interesting-pics-street-photographers-3.jpeg",
+      "class": "low",
+      "psnr_db": 54.15325040475034,
+      "ssim": 0.9993183242251169,
+      "pair_chi": 5694.692652104975,
+      "target_psnr_db": 54.15325040475034,
+      "target_ssim": 0.9993183242251169
+    },
+    {
+      "path": "los-angeles-usa-june-29-unidentified-random-people-in-the-streets-of-downtown-of-los-angeles-ca-on-june-29-2018-P6YB2N.jpg",
+      "class": "medium",
+      "psnr_db": 54.14425426036018,
+      "ssim": 0.9993674505938179,
+      "pair_chi": 1271.721373142098,
+      "target_psnr_db": 54.14425426036018,
+      "target_ssim": 0.9993674505938179
+    },
+    {
+      "path": "original.jpg",
+      "class": "medium",
+      "psnr_db": 54.1145154180171,
+      "ssim": 0.999235881949793,
+      "pair_chi": 2656.8086935423066,
+      "target_psnr_db": 54.1145154180171,
+      "target_ssim": 0.999235881949793
+    },
+    {
+      "path": "paint-children-drawing-sun-day-preview.jpg",
+      "class": "medium",
+      "psnr_db": 54.161802468947336,
+      "ssim": 0.9982783909760294,
+      "pair_chi": 1129.0429462677876,
+      "target_psnr_db": 54.161802468947336,
+      "target_ssim": 0.9982783909760294
+    },
+    {
+      "path": "peace-and-serene.jpg",
+      "class": "medium",
+      "psnr_db": 54.1429870713166,
+      "ssim": 0.9997030818054103,
+      "pair_chi": 4198.869869914408,
+      "target_psnr_db": 54.1429870713166,
+      "target_ssim": 0.9997030818054103
+    },
+    {
+      "path": "premium_photo-1666900440561-94dcb6865554.avif",
+      "class": "high",
+      "psnr_db": 54.134471941764275,
+      "ssim": 0.9998950634094688,
+      "pair_chi": 146.70878956821838,
+      "target_psnr_db": 54.134471941764275,
+      "target_ssim": 0.9998950634094688
+    },
+    {
+      "path": "Random Halloween Pics 8__OTIS.jpg",
+      "class": "low",
+      "psnr_db": 54.14494561025721,
+      "ssim": 0.9996458526986053,
+      "pair_chi": 10895.900633241887,
+      "target_psnr_db": 54.14494561025721,
+      "target_ssim": 0.9996458526986053
+    },
+    {
+      "path": "random-picture-01.jpg",
+      "class": "high",
+      "psnr_db": 54.17141472924069,
+      "ssim": 0.9995173835830612,
+      "pair_chi": 209.16342268750404,
+      "target_psnr_db": 54.17141472924069,
+      "target_ssim": 0.9995173835830612
+    },
+    {
+      "path": "Random_Lake_Wisconsin_Panorama_-_Looking_North.jpg",
+      "class": "high",
+      "psnr_db": 54.19583034240351,
+      "ssim": 0.9996662460279215,
+      "pair_chi": 244.44664466564856,
+      "target_psnr_db": 54.19583034240351,
+      "target_ssim": 0.9996662460279215
+    }
+  ]
+}

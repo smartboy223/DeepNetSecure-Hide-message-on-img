@@ -1,0 +1,29 @@
+node_modules/
+frontend/node_modules/
+frontend/dist/
+backend/uploads/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.agents/
+.codex/
+
+# Training and local-only data
+dataset/
+
+# Academic/private source documents and generated reports
+*.docx
+build_report.cjs
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+AGENTS.md
